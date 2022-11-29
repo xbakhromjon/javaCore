@@ -1,4 +1,4 @@
-package uz.bakhromjon;
+package uz.bakhromjon.simpleJavaApp;
 
 /**
  * @author : Bakhromjon Khasanboyev
