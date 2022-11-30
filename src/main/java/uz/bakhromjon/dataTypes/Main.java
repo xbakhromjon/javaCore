@@ -22,5 +22,9 @@ public class Main {
         System.out.println(1_000_126);
 
         long v = 0b1111_0100_0010_0100_0000;
+
+
+        int i = Byte.toUnsignedInt((byte) -126);
+        System.out.println(i);
     }
 }
