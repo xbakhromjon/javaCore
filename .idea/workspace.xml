@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a51bdae4-7858-4f60-8f0e-219c3a80c96f" name="Changes" comment="casts">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/operators/RelationalBooleanOperators/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/operators/bitwise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/operators/incAndDec/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/operators/operatorHierarchy/Main.java" afterDir="false" />
+    <list default="true" id="a51bdae4-7858-4f60-8f0e-219c3a80c96f" name="Changes" comment="operators">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/strings/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/strings/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/operators/combiningAssignment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/operators/combiningAssignment/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -58,7 +56,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/xbakhromjon/IdeaProjects/SpringBootAppProduction&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/xbakhromjon/IdeaProjects/new_d_doc_microservices&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,7 +73,7 @@
       <recent name="uz.bakhromjon.p1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.uz.bakhromjon.operators.operatorHierarchy.Main">
+  <component name="RunManager" selected="Application.uz.bakhromjon.strings.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.operators.combiningAssignment.Main" />
       <module name="JavaRevision" />
@@ -95,19 +93,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="uz.bakhromjon.operators.RelationalBooleanOperators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="uz.bakhromjon.operators.cast.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.operators.cast.Main" />
-      <module name="JavaRevision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uz.bakhromjon.operators.cast.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +126,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="uz.bakhromjon.strings.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.strings.Main" />
+      <module name="JavaRevision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uz.bakhromjon.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.uz.bakhromjon.strings.Main" />
         <item itemvalue="Application.uz.bakhromjon.operators.operatorHierarchy.Main" />
         <item itemvalue="Application.uz.bakhromjon.operators.RelationalBooleanOperators.Main" />
         <item itemvalue="Application.uz.bakhromjon.operators.incAndDec.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.uz.bakhromjon.operators.cast.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670131859989</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="operators">
+      <created>1670219160469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670219160469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +194,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="casts" />
-    <option name="LAST_COMMIT_MESSAGE" value="casts" />
+    <MESSAGE value="operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="operators" />
   </component>
 </project>
