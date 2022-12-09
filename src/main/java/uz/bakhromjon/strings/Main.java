@@ -57,6 +57,13 @@ public class Main {
             }
             System.out.println(str.charAt(j));
         }
+
+
+        StringBuilder strBuilder = new StringBuilder();
+        String str1 = "1";
+        str1 = str1 + "2";
+
+
     }
 
 }
