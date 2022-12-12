@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a51bdae4-7858-4f60-8f0e-219c3a80c96f" name="Changes" comment="IO">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/io/FormattingOutput.java" afterDir="false" />
+    <list default="true" id="a51bdae4-7858-4f60-8f0e-219c3a80c96f" name="Changes" comment="FormattingOutput">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/io/FileInputOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,30 +50,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/xbakhromjon/IdeaProjects/nomakler&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/xbakhromjon/IdeaProjects/JavaRevision",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="uz.bakhromjon.p1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FormattingOutput">
+  <component name="RunManager" selected="Application.FileInputOutput">
+    <configuration name="FileInputOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.io.FileInputOutput" />
+      <module name="JavaRevision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uz.bakhromjon.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FormattingOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.io.FormattingOutput" />
       <module name="JavaRevision" />
@@ -92,19 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="uz.bakhromjon.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="uz.bakhromjon.operators.RelationalBooleanOperators.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.operators.RelationalBooleanOperators.Main" />
-      <module name="JavaRevision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uz.bakhromjon.operators.RelationalBooleanOperators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileInputOutput" />
         <item itemvalue="Application.FormattingOutput" />
         <item itemvalue="Application.uz.bakhromjon.io.Main" />
         <item itemvalue="Application.uz.bakhromjon.strings.Main" />
         <item itemvalue="Application.uz.bakhromjon.operators.operatorHierarchy.Main" />
-        <item itemvalue="Application.uz.bakhromjon.operators.RelationalBooleanOperators.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +160,7 @@
       <workItem from="1669596321339" duration="1712000" />
       <workItem from="1669769443425" duration="1877000" />
       <workItem from="1670069941418" duration="330000" />
+      <workItem from="1670861492187" duration="1293000" />
     </task>
     <task id="LOCAL-00001" summary="casts">
       <created>1670131859989</created>
@@ -195,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670553356383</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="FormattingOutput">
+      <created>1670735925035</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670735925035</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +226,7 @@
     <MESSAGE value="operators" />
     <MESSAGE value="Strings" />
     <MESSAGE value="IO" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO" />
+    <MESSAGE value="FormattingOutput" />
+    <option name="LAST_COMMIT_MESSAGE" value="FormattingOutput" />
   </component>
 </project>
