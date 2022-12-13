@@ -1,8 +1,6 @@
 package uz.bakhromjon.io;
 
-import java.io.BufferedInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
@@ -26,7 +24,5 @@ public class FileInputOutput {
 
         String dir = System.getProperty("user.dir");
         System.out.println(dir);
-
-
     }
 }
