@@ -16,37 +16,92 @@ public class Main {
         switch (choice) {
             case 1:
                 System.out.println("1");
-                break;
             case 2:
                 System.out.println("2");
-                break;
             case 3:
                 System.out.println("3");
-                break;
             case 4:
                 System.out.println("4");
-                break;
             default:
                 // bad input
                 System.out.println("Bad input");
-                break;
         }
+
+
+        switch (choice) {
+            case 1 ->
+                System.out.println("1");
+            case 2 ->
+                System.out.println("2");
+            case 3 ->
+                System.out.println("3");
+            case 4 ->
+                System.out.println("4");
+            default ->
+                System.out.println("Bad input");
+        }
+
 
         if (choice == 1) {
             System.out.println("1");
-        }
-        if (choice == 2) {
+        } else if (choice == 2) {
             System.out.println("2");
-        }
-        if (choice == 3) {
+        } else if (choice == 3) {
             System.out.println("3");
-        }
-        if (choice == 4) {
+        } else if (choice == 4) {
             System.out.println("4");
-        }
-
-        if (choice > 5 || choice < 1) {
+        } else {
             System.out.println("Bad input");
         }
+
+
+//        switchStatement();
+
+//        float f = 1.2F;
+//        switch (f) {
+//
+//        }
+        String s = "123";
+        switch (s) {
+            case "123" ->
+                System.out.println("case 1");
+            case "12" ->
+                System.out.println("case 2");
+        }
+
+        enum Size {
+            SMALL,
+            MEDIUM,
+            LARGE
+        }
+
+        Size sz = Size.LARGE;
+        switch (sz) {
+            case LARGE -> System.out.println("large");
+            case MEDIUM -> System.out.println("medium");
+            case SMALL -> System.out.println("small");
+        }
+
+
+    }
+    @SuppressWarnings("fallthrough")
+    public static void switchStatement() {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Select an option (1, 2, 3, 4) ");
+        int choice = in.nextInt();
+        switch (choice) {
+            case 1:
+                System.out.println("1");
+            case 2:
+                System.out.println("2");
+            case 3:
+                System.out.println("3");
+            case 4:
+                System.out.println("4");
+            default:
+                // bad input
+                System.out.println("Bad input");
+        }
+
     }
 }

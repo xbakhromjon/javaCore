@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a51bdae4-7858-4f60-8f0e-219c3a80c96f" name="Changes" comment="File Input Output">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/controlFlow/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/controlFlow/loop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/controlFlow/multipleSelection/Main.java" afterDir="false" />
+    <list default="true" id="a51bdae4-7858-4f60-8f0e-219c3a80c96f" name="Changes" comment="control Flow">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/controlFlow/breakControlFlow/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/io/FileInputOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/io/FileInputOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/controlFlow/multipleSelection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/controlFlow/multipleSelection/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,22 +73,9 @@
       <recent name="uz.bakhromjon.p1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.uz.bakhromjon.controlFlow.multipleSelection.Main">
+  <component name="RunManager" selected="Application.uz.bakhromjon.controlFlow.breakControlFlow.Main">
     <configuration name="FileInputOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.io.FileInputOutput" />
-      <module name="JavaRevision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uz.bakhromjon.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FormattingOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.io.FormattingOutput" />
       <module name="JavaRevision" />
       <extension name="coverage">
         <pattern>
@@ -108,6 +93,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="uz.bakhromjon.controlFlow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uz.bakhromjon.controlFlow.breakControlFlow.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.controlFlow.breakControlFlow.Main" />
+      <module name="JavaRevision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uz.bakhromjon.controlFlow.breakControlFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.uz.bakhromjon.controlFlow.breakControlFlow.Main" />
         <item itemvalue="Application.uz.bakhromjon.controlFlow.multipleSelection.Main" />
         <item itemvalue="Application.uz.bakhromjon.controlFlow.loop.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.FileInputOutput" />
-        <item itemvalue="Application.FormattingOutput" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670862835267</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="control Flow">
+      <created>1670950070523</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670950070523</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +243,7 @@
     <MESSAGE value="IO" />
     <MESSAGE value="FormattingOutput" />
     <MESSAGE value="File Input Output" />
-    <option name="LAST_COMMIT_MESSAGE" value="File Input Output" />
+    <MESSAGE value="control Flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="control Flow" />
   </component>
 </project>
