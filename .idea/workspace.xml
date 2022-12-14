@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a51bdae4-7858-4f60-8f0e-219c3a80c96f" name="Changes" comment="control Flow">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/controlFlow/breakControlFlow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/arrays/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/bigNumbers/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/controlFlow/multipleSelection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/controlFlow/multipleSelection/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +73,13 @@
       <recent name="uz.bakhromjon.p1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.uz.bakhromjon.controlFlow.breakControlFlow.Main">
-    <configuration name="FileInputOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.io.FileInputOutput" />
+  <component name="RunManager" selected="Application.uz.bakhromjon.arrays.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.controlFlow.Main" />
       <module name="JavaRevision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uz.bakhromjon.io.*" />
+          <option name="PATTERN" value="uz.bakhromjon.controlFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.controlFlow.Main" />
+    <configuration name="uz.bakhromjon.arrays.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.arrays.Main" />
       <module name="JavaRevision" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uz.bakhromjon.controlFlow.*" />
+          <option name="PATTERN" value="uz.bakhromjon.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.uz.bakhromjon.arrays.Main" />
         <item itemvalue="Application.uz.bakhromjon.controlFlow.breakControlFlow.Main" />
         <item itemvalue="Application.uz.bakhromjon.controlFlow.multipleSelection.Main" />
         <item itemvalue="Application.uz.bakhromjon.controlFlow.loop.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FileInputOutput" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670950070523</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="control Flow">
+      <created>1670989844196</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670989844196</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
