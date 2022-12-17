@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a51bdae4-7858-4f60-8f0e-219c3a80c96f" name="Changes" comment="biginteger and array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/arrays/CommandLineParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/arrays/CopyingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/arrays/MultiDemisionalArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/arrays/SortingArray.java" afterDir="false" />
+    <list default="true" id="a51bdae4-7858-4f60-8f0e-219c3a80c96f" name="Changes" comment="OOP">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/OOP/ObjectAndObjectVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/bakhromjon/OOP/UsingPredefinedClasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +73,7 @@
       <recent name="uz.bakhromjon.p1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiDemisionalArray">
+  <component name="RunManager" selected="Application.ObjectAndObjectVariables">
     <configuration name="CopyingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.arrays.CopyingArray" />
       <module name="JavaRevision" />
@@ -95,6 +93,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="uz.bakhromjon.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectAndObjectVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.OOP.ObjectAndObjectVariables" />
+      <module name="JavaRevision" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uz.bakhromjon.OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,26 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="uz.bakhromjon.controlFlow.breakControlFlow.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uz.bakhromjon.controlFlow.breakControlFlow.Main" />
-      <module name="JavaRevision" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uz.bakhromjon.controlFlow.breakControlFlow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectAndObjectVariables" />
         <item itemvalue="Application.MultiDemisionalArray" />
         <item itemvalue="Application.SortingArray" />
         <item itemvalue="Application.CopyingArray" />
         <item itemvalue="Application.uz.bakhromjon.arrays.Main" />
-        <item itemvalue="Application.uz.bakhromjon.controlFlow.breakControlFlow.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671037281175</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="OOP">
+      <created>1671163553405</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671163553405</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +273,7 @@
     <MESSAGE value="File Input Output" />
     <MESSAGE value="control Flow" />
     <MESSAGE value="biginteger and array" />
-    <option name="LAST_COMMIT_MESSAGE" value="biginteger and array" />
+    <MESSAGE value="OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP" />
   </component>
 </project>
